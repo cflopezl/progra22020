@@ -6,11 +6,9 @@ public class Main {
         Universidad u1 = new Universidad("Universidad Mariano Galvez");
         u1.setSiglas("UMG");
 
-        u1.setCarrera1(new Carrera(7691, "Ingenieria en Sistemas de Informacion"));
-
-        u1.setCarrera2(new Carrera(7681, "Psicologia"));
-
-
+        u1.addCarrera(new Carrera(7691, "Ingenieria en Sistemas de Informacion"));
+        u1.addCarrera(new Carrera(7681, "Psicologia"));
+        u1.addCarrera(new Carrera(7689, "Administracion de Empresas"));
 
         System.out.println(u1.toString());
 

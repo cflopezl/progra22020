@@ -1,19 +1,24 @@
 package edu.umg;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Universidad {
     private String nombre;
     private String siglas;
-    private Carrera carrera1;
-    private Carrera carrera2;
+    private List<Carrera> carreras;
 
     /*constructor*/
 
     public Universidad(String nombre) {
         this.nombre = nombre;
+        carreras = new ArrayList();
     }
 
     /*Funcionalidad (set,get) = accesors*/
-
+    public void addCarrera(Carrera c){
+        carreras.add(c);
+    }
 
     public void setNombre(String nombre){
         this.nombre = nombre;
@@ -31,29 +36,20 @@ public class Universidad {
         this.siglas = siglas;
     }
 
-    public Carrera getCarrera1() {
-        return carrera1;
-    }
-
-    public void setCarrera1(Carrera carrera1) {
-        this.carrera1 = carrera1;
-    }
-
-    public Carrera getCarrera2() {
-        return carrera2;
-    }
-
-    public void setCarrera2(Carrera carrera2) {
-        this.carrera2 = carrera2;
-    }
 
     @Override
     public String toString() {
-        return "Universidad{" +
+        String temp = "Universidad{" +
                 "nombre='" + nombre + '\'' +
-                ", siglas='" + siglas + '\'' +
-                "\n  CARRERA1 " + carrera1.toString() +
-                "\n  CARRERA2 " + carrera2.toString() +
-                '}';
+                ", siglas='" + siglas + '\'';
+
+        //recorrer el arreglo carreras
+        int i= 1;
+        for(Carrera tempCarrera : carreras){
+            temp += "\n    CARRERA" + i++ + " " + tempCarrera.toString();
+        }
+
+        temp +=        '}';
+        return temp;
     }
 }
