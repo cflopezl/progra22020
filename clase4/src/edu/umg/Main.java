@@ -1,5 +1,8 @@
 package edu.umg;
 
+import edu.umg.modelo.Carrera;
+import edu.umg.modelo.Universidad;
+
 public class Main {
 
     public static void main(String[] args) {

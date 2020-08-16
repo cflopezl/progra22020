@@ -1,4 +1,6 @@
-package edu.umg;
+package edu.umg.modelo;
+
+import edu.umg.modelo.Carrera;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +10,7 @@ public class Universidad {
     private String siglas;
     private List<Carrera> carreras;
 
+
     /*constructor*/
 
     public Universidad(String nombre) {
@@ -15,7 +18,7 @@ public class Universidad {
         carreras = new ArrayList();
     }
 
-    /*Funcionalidad (set,get) = accesors*/
+
     public void addCarrera(Carrera c){
         carreras.add(c);
     }

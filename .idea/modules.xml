@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Primero/Primero.iml" filepath="$PROJECT_DIR$/Primero/Primero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clase4/clase4.iml" filepath="$PROJECT_DIR$/clase4/clase4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progra22020.iml" filepath="$PROJECT_DIR$/progra22020.iml" />
+    </modules>
+  </component>
+</project>
