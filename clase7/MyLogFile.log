@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-25T22:05:20</date>
+  <millis>1598414720142</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.utils.MyCustomException</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-25T22:06:55</date>
+  <millis>1598414815071</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.utils.MyCustomException</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-25T22:06:58</date>
+  <millis>1598414818458</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.utils.MyCustomException</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-25T22:09:04</date>
+  <millis>1598414944667</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Linea 1</message>
+</record>
+<record>
+  <date>2020-08-25T22:09:53</date>
+  <millis>1598414993227</millis>
+  <sequence>1</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Linea 2</message>
+</record>
+<record>
+  <date>2020-08-25T22:10:39</date>
+  <millis>1598415039698</millis>
+  <sequence>2</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.utils.MyCustomException</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
