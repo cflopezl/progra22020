@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.umg.controller.LoginController">
+   <children>
+      <Label layoutX="143.0" layoutY="83.0" text="Usuario:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="149.0" text="Contraseña:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsuario" layoutX="143.0" layoutY="114.0" />
+      <PasswordField fx:id="txtContrasenia" layoutX="143.0" layoutY="188.0" />
+      <Button layoutX="325.0" layoutY="137.0" mnemonicParsing="false" onAction="#validarIngreso" text="Ingresar" />
+   </children>
+</Pane>

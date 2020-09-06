@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-29T10:42:45</date>
+  <millis>1598719365411</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-29T10:43:48</date>
+  <millis>1598719428393</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-29T10:49:36</date>
+  <millis>1598719776821</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-30T14:52:21</date>
+  <millis>1598820741036</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
