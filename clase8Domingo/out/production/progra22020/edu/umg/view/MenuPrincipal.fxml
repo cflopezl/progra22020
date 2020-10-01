@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.umg.controller.ControllerMenuPrincipal">
+   <children>
+      <MenuBar fx:id="menu" layoutX="6.0" layoutY="8.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#showCarrera" text="Agregar Carrera" />
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+
+
+       <Pane fx:id="paneCarrera" layoutX="6.0" layoutY="35.0" prefHeight="321.0" prefWidth="570.0" visible="false">
+      <Button layoutX="448.0" layoutY="76.0" mnemonicParsing="false" onAction="#addCarrera" text="Grabar" />
+      <Label layoutX="60.0" layoutY="80.0" text="Nombre Carrera: " />
+      <TextField fx:id="txtNombreCarrera" layoutX="170.0" layoutY="76.0" prefHeight="25.0" prefWidth="215.0" />
+      <TableView fx:id="tblCarreras" layoutX="60.0" layoutY="127.0" prefHeight="241.0" prefWidth="499.0">
+        <columns>
+          <TableColumn fx:id="tfCodigo" prefWidth="75.0" text="Código" />
+          <TableColumn fx:id="tfNombre" prefWidth="300.0" text="Nombre" />
+        </columns>
+      </TableView>
+       </Pane>
+
+   </children>
+</Pane>

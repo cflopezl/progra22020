@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.umg.controller.ControllerLogin">
+   <children>
+      <Label layoutX="166.0" layoutY="121.0" text="Usuario" />
+      <Label layoutX="166.0" layoutY="155.0" text="Contraseña" />
+      <TextField fx:id="txtUsuario" layoutX="254.0" layoutY="117.0" text="cflopezl" />
+      <PasswordField fx:id="txtContrasena" layoutX="254.0" layoutY="151.0" text="123456" />
+       <Button fx:id="btnIngresar" layoutX="271.0" layoutY="214.0" mnemonicParsing="false" onAction="#logear" text="Ingresar" />
+   </children>
+</Pane>

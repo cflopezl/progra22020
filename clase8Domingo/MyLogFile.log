@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-30T15:43:38</date>
+  <millis>1598823818528</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-30T15:44:48</date>
+  <millis>1598823888336</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-30T15:49:32</date>
+  <millis>1598824172618</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>1</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-02T22:25:48</date>
+  <millis>1599107148165</millis>
+  <sequence>0</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>15</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+<record>
+  <date>2020-09-02T22:26:55</date>
+  <millis>1599107215942</millis>
+  <sequence>1</sequence>
+  <logger>edu.umg.utils.MyLogger</logger>
+  <level>INFO</level>
+  <class>edu.umg.chain.Bitacora</class>
+  <method>execute</method>
+  <thread>15</thread>
+  <message>El nombre debe ser mayor a 5 caracteres</message>
+</record>
+</log>
