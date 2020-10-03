@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="combobox" prefHeight="476.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tarea7.FXMLDocumentController">
+    <children>
+        <CheckBox layoutX="63.0" layoutY="39.0" mnemonicParsing="false" selected="true" text="grabar en archivo" />
+        <Label layoutX="92.0" layoutY="125.0" text="Operador 1" />
+        <Label layoutX="92.0" layoutY="160.0" text="Operador 2" />
+        <TextField layoutX="164.0" layoutY="121.0" />
+        <TextField layoutX="164.0" layoutY="156.0" />
+        <Button layoutX="198.0" layoutY="209.0" mnemonicParsing="false" text="Operar">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+        <RadioButton layoutX="137.0" layoutY="257.0" mnemonicParsing="false" text="SUMA" />
+        <RadioButton layoutX="231.0" layoutY="257.0" mnemonicParsing="false" text="DVISION" />
+        <RadioButton layoutX="139.0" layoutY="284.0" mnemonicParsing="false" text="RESTA" />
+        <RadioButton layoutX="231.0" layoutY="284.0" mnemonicParsing="false" text="MULTIPLICACION" />
+        <TextField editable="false" layoutX="170.0" layoutY="323.0" />
+        <Label layoutX="98.0" layoutY="327.0" text="Resultado" />
+        <Label layoutX="72.0" layoutY="383.0" text="Lenguaje Favorito" />
+        <ComboBox editable="true" layoutX="177.0" layoutY="379.0" promptText="selecciona lenguaje" />
+    </children>
+</AnchorPane>

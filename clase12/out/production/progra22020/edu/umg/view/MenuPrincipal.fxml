@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.umg.controller.MenuPrincipalController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Archivo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Editar">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#verPanelCarrera" text="Carrera" />
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Nuevo">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Pane fx:id="paneCarrera" layoutX="5.0" layoutY="40.0" prefHeight="360.0" prefWidth="583.0" visible="false">
+          <Label layoutX="101.0" layoutY="126.0" text="Nombre Carrera:" />
+          <TextField fx:id="txtNombreCarrera" layoutX="193.0" layoutY="122.0" prefHeight="25.0" prefWidth="236.0" />
+          <Button layoutX="436.0" layoutY="122.0" mnemonicParsing="false" onAction="#agregarCarrera" text="Agregar" />
+          <TableView fx:id="tblCarrera" layoutX="101.0" layoutY="163.0" prefHeight="200.0" prefWidth="398.0">
+              <columns>
+                  <TableColumn fx:id="tcCodigo" prefWidth="75.0" text="Código" />
+                  <TableColumn fx:id="tcNombre" prefWidth="321.0" text="Nombre" />
+              </columns>
+          </TableView>
+      </Pane>
+
+   </children>
+</Pane>
